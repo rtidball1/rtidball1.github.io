@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name &mdash; Portfolio</title>
+<meta name="description" content="Your Name — tech professional, speaker, and leader. Resume, experience, and contact info.">
+
+<!-- Pico.css: classless-friendly CSS framework, no build step required -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+<style>
+  :root {
+    --pico-font-size: 100%;
+  }
+  body {
+    max-width: 900px;
+  }
+  header.hero {
+    text-align: center;
+    padding-block: 2rem 1rem;
+  }
+  header.hero h1 {
+    margin-bottom: 0.25rem;
+  }
+  header.hero p.tagline {
+    color: var(--pico-muted-color);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  nav.contact-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  section {
+    margin-block: 2.5rem;
+  }
+  .job {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--pico-muted-border-color);
+  }
+  .job:last-child {
+    border-bottom: none;
+  }
+  .job-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.25rem 1rem;
+  }
+  .job-header h4 {
+    margin-bottom: 0;
+  }
+  .job-dates, .job-location {
+    color: var(--pico-muted-color);
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .role-line {
+    font-weight: 600;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  ul.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  ul.skills-list li {
+    background: var(--pico-code-background-color);
+    border-radius: var(--pico-border-radius);
+    padding: 0.25rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  footer {
+    text-align: center;
+    color: var(--pico-muted-color);
+    padding-block: 2rem;
+  }
+</style>
+</head>
+<body>
+<main class="container">
+
+  <!-- HERO / INTRO -->
+  <header class="hero">
+    <h1>Your Name</h1>
+    <p class="tagline">Your Title / One-line positioning statement (e.g. "Wealth Management Leader &amp; Public Speaker")</p>
+    <nav class="contact-links">
+      <ul>
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><a href="tel:+10000000000">(000) 000-0000</a></li>
+        <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://yourwebsite.com" target="_blank" rel="noopener">Portfolio</a></li>
+        <li>Toronto, ON</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Short bio goes here. Two to four sentences covering who you are professionally,
+      what you're known for, and what kind of opportunities you're looking for
+      (full-time roles, speaking engagements, advisory work, etc.).
+    </p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="job-header">
+        <h4>Scotiabank</h4>
+        <span class="job-location">Toronto, ON</span>
+      </div>
+      <p class="job-dates">May &ndash; Aug. '22; Jun. '23 &ndash; Aug. '26</p>
+      <p>Global Family Office Group, Global Wealth Management</p>
+      <p class="role-line">
+        Senior Manager (Apr. '25 &ndash; Aug. '26) &middot;
+        Manager (Nov. '23 &ndash; Mar. '25) &middot;
+        Associate (Jun. '23 &ndash; Oct. '23) &middot;
+        Intern (May '22 &ndash; Aug. '22)
+      </p>
+      <ul>
+        <li>Add a bullet describing a key responsibility or achievement.</li>
+        <li>Add another bullet with measurable impact (e.g. AUM, process improvements, team size).</li>
+        <li>Add a third bullet highlighting a notable project or client outcome.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-header">
+        <h4>Corporates Connect</h4>
+        <span class="job-location">Toronto, ON</span>
+      </div>
+      <p class="job-dates">May '22 &ndash; Present</p>
+      <p>Networking event company for young professionals</p>
+      <p class="role-line">Your Role Title</p>
+      <ul>
+        <li>Add a bullet describing your role (e.g. event planning, speaker curation, partnerships).</li>
+        <li>Add a bullet with scale/impact (e.g. number of events, attendees, sponsors).</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-header">
+        <h4>Company Name</h4>
+        <span class="job-location">City, Province</span>
+      </div>
+      <p class="job-dates">Month 'YY &ndash; Month 'YY</p>
+      <p>Team / Department</p>
+      <p class="role-line">Your Role Title</p>
+      <ul>
+        <li>Add a bullet here.</li>
+        <li>Add another bullet here.</li>
+      </ul>
+    </article>
+
+  </section>
+
+  <!-- PUBLIC SPEAKING -->
+  <section id="speaking">
+    <h2>Public Speaking &amp; Other Engagements</h2>
+    <article class="job">
+      <div class="job-header">
+        <h4>Event / Conference Name</h4>
+        <span class="job-location">City, or Virtual</span>
+      </div>
+      <p class="job-dates">Month 'YY</p>
+      <p class="role-line">Talk Title / Topic</p>
+      <p>Short description of the talk, audience size, or outcome.</p>
+    </article>
+    <p><em>Add more speaking engagements, panels, or media appearances here.</em></p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+
+    <article class="job">
+      <div class="job-header">
+        <h4>Babson College, F.W. Olin Graduate School of Business</h4>
+        <span class="job-location">Wellesley, MA</span>
+      </div>
+      <p class="job-dates">Sep. '26 &ndash; May '27</p>
+      <p class="role-line">MS in Business Analytics, expected May 2027</p>
+      <ul>
+        <li>NCAA Student-Athlete, Field Hockey</li>
+        <li>Relevant courses: Digital Marketing; Programming for Business Analytics (Python and AI agents); Machine Learning for Business (R); Storytelling/Communication with Data (Tableau); Entrepreneurship, Analytics, and Strategy of the Firm</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-header">
+        <h4>Ivey Business School at Western University</h4>
+        <span class="job-location">London, ON</span>
+      </div>
+      <p class="job-dates">Sep. '19 &ndash; Apr. '23</p>
+      <p class="role-line">Honours Business Administration | GPA: 3.7/4.0; Dean's Honor List (Top 25%)</p>
+      <ul>
+        <li>U SPORTS Student-Athlete, Field Hockey</li>
+        <li>Academic All-Canadian, OUA Academic All-Star, and Scholar-Athlete for excellence in balancing varsity athletics and academics; three-time Colour Award and Bronze W recipient for outstanding team contribution on and off the field</li>
+      </ul>
+    </article>
+
+  </section>
+
+  <!-- ADDITIONAL INFORMATION -->
+  <section id="additional">
+    <h2>Additional Information</h2>
+    <ul>
+      <li>Chartered Investment Manager (CIM&reg;)</li>
+      <li>Best of the Best 2024, Scotiabank Global Wealth Management (voted by colleagues)</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Skill One</li>
+      <li>Skill Two</li>
+      <li>Skill Three</li>
+      <li>Skill Four</li>
+      <li>Skill Five</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>
+      Open to full-time opportunities, speaking engagements, and advisory roles.
+      Reach out at <a href="mailto:you@example.com">you@example.com</a> or connect on
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <small>&copy; <span id="year"></span> Your Name. Built with <a href="https://picocss.com" target="_blank" rel="noopener">Pico.css</a>.</small>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
