@@ -9,3 +9,8 @@
 .venture-contact{font-size:13px;margin-top:24px;overflow-wrap:anywhere}
 @media(max-width:800px){.masthead{gap:20px}.header-contacts{gap:10px 18px}.wordmark{line-height:1.15}}
 @media(max-width:540px){.masthead{align-items:flex-start;flex-direction:column;gap:14px}.header-contacts{width:100%;justify-content:space-between}.header-contacts .email{font-size:11px}.section-summary{font-size:24px}}
+
+/* Taller arched portrait and understated section summaries. */
+.hero img{aspect-ratio:1205/1722;object-fit:cover;border-radius:110px 110px 0 0}
+.section-summary{font-family:var(--sans);font-size:12px;font-style:italic;line-height:1.8}
+@media(max-width:540px){.section-summary{font-size:10px}}
