@@ -66,3 +66,5 @@
 #education>.ivey-closing-line{grid-column:1/-1;margin:0;padding:0}
 
 .degree-honours .class-standing{font-size:15px}.school .athletic-award{font-size:13px}
+
+.career-bullets{padding-left:20px;margin:0 0 24px}.career-bullets li+li{margin-top:14px}
