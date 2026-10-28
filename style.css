@@ -50,3 +50,5 @@
 /* Consistent portfolio titles and compact degree honours. */
 #corporate .section-content>h3.wealth-heading,#entrepreneurial .section-content>h3,.school-heading h3,.school-heading .ivey-title{font-family:var(--serif);font-size:34px;font-weight:400;line-height:1.2}
 .degree-honours{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px}.degree-honours .class-standing{font-size:13px;font-weight:400}.corporate-main>.credentials{margin-bottom:30px}
+
+#entrepreneurial .section-summary{font-family:var(--sans);font-size:14px;font-style:normal;line-height:1.8}
