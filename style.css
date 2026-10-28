@@ -64,3 +64,5 @@
 .ivey-closing-line{font-family:var(--sans);font-size:14px;line-height:1.8;margin:20px 0 0}
 
 #education>.ivey-closing-line{grid-column:1/-1;margin:0;padding:0}
+
+.degree-honours .class-standing{font-size:15px}.school .athletic-award{font-size:13px}
