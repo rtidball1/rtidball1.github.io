@@ -68,3 +68,5 @@
 .degree-honours .class-standing{font-size:15px}.school .athletic-award{font-size:13px}
 
 .career-bullets{padding-left:20px;margin:0 0 24px}.career-bullets li+li{margin-top:14px}
+
+.passion-items{display:grid;gap:24px}.passion-items article{padding-bottom:24px;border-bottom:1px solid var(--line)}.passion-items article:last-child{padding-bottom:0;border-bottom:0}.passion-items h3{font-size:28px;margin-bottom:8px}.passion-items p{font-size:14px;margin:0}
