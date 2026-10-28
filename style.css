@@ -28,3 +28,5 @@
 #corporate .section-content>.subheading{font-family:var(--serif);font-size:34px;line-height:1.2;color:var(--ink)}
 .experience-label{font-size:12px}
 .career-logos{flex-direction:column;align-items:flex-start;gap:18px}
+
+.education-band{background:#fff}.education-logos{display:flex;flex-direction:column;align-items:flex-start;gap:24px;margin-top:28px}.education-logos .school-logo{max-width:140px;max-height:48px;margin:0}
