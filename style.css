@@ -86,3 +86,8 @@
 @media(min-width:801px){.section{grid-template-columns:170px minmax(0,1fr);gap:32px}}
 @media(min-width:541px) and (max-width:800px){.section{grid-template-columns:150px minmax(0,1fr);gap:24px}}
 .entrepreneurial-word{white-space:normal;overflow-wrap:anywhere}.section-title h2{overflow-wrap:anywhere}
+
+/* Equal titles sized to fit the unchanged narrow heading column. */
+.section-title h2,#entrepreneurial .section-title h2{font-size:30px;overflow-wrap:normal}
+.entrepreneurial-word{white-space:nowrap;overflow-wrap:normal}
+@media(min-width:541px) and (max-width:800px){.section-title h2,#entrepreneurial .section-title h2{font-size:27px}}
