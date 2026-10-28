@@ -37,3 +37,7 @@
 @media(min-width:801px){.section{grid-template-columns:minmax(0,1fr) minmax(0,3fr);gap:48px}}
 @media(min-width:541px) and (max-width:800px){.section{grid-template-columns:minmax(0,1fr) minmax(0,2.5fr);gap:28px}}
 .section-title,.section-content{min-width:0}.section-title h2{overflow-wrap:anywhere}
+
+/* Align the MNP logo in the left column with consulting experience. */
+#corporate{row-gap:28px}.consulting-logo{grid-column:1;grid-row:2;padding-top:19px}.consulting-logo .mnp-logo{height:15px;max-width:48px}.consulting-block{grid-column:2;grid-row:2;border-top:3px solid var(--wine);padding-top:16px}.consulting-block>.experience-label{margin:0 0 8px}.consulting-timeline{margin-top:0}
+@media(max-width:540px){.consulting-logo{grid-column:1;grid-row:auto;padding-top:0}.consulting-block{grid-column:1;grid-row:auto}}
