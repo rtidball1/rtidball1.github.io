@@ -3,9 +3,9 @@
 
 @media(max-width:540px){h1{font-size:clamp(58px,16vw,76px)}.hero>div{min-width:0}.hero figure{width:clamp(80px,24vw,105px)}.heart{white-space:nowrap}.section-title h2{font-size:clamp(36px,9vw,45px)}}
 
-/* Introduction and navigation refinements. */
+/* Contact links and section introductions. */
 .header-contacts{display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:flex-end}.header-contacts .email{font-size:12px;overflow-wrap:anywhere}
-.intro-band{background:var(--wine);color:#fff}.intro{font-family:var(--serif);font-size:clamp(24px,2.65vw,35px);line-height:1.45;padding-block:48px}.intro p{margin-bottom:24px}.intro p:last-child{margin-bottom:0}
-.section-nav{border:0;padding-block:24px;gap:12px}.section-nav a{display:flex;align-items:center;justify-content:center;background:var(--wine);color:#fff;padding:15px 12px;text-align:center;border:1px solid var(--wine)}.section-nav span{color:#fff}.section-nav a:hover{background:#38101b;text-decoration:underline}.section-nav a:focus-visible{outline-color:var(--wine)}.venture-contact{font-size:13px;margin-top:24px;overflow-wrap:anywhere}
-@media(max-width:800px){.masthead{gap:20px}.header-contacts{gap:10px 18px}.wordmark{line-height:1.15}.intro{padding-block:36px}}
-@media(max-width:540px){.masthead{align-items:flex-start;flex-direction:column;gap:14px}.header-contacts{width:100%;justify-content:space-between}.header-contacts .email{font-size:11px}.intro{font-size:24px}.section-nav a{padding:13px 8px;font-size:10px}.section-nav span{margin-right:5px}}
+.section-summary{font-family:var(--serif);font-size:clamp(24px,2.3vw,30px);line-height:1.45;margin-block:24px 32px}.section-summary p{margin:0}
+.venture-contact{font-size:13px;margin-top:24px;overflow-wrap:anywhere}
+@media(max-width:800px){.masthead{gap:20px}.header-contacts{gap:10px 18px}.wordmark{line-height:1.15}}
+@media(max-width:540px){.masthead{align-items:flex-start;flex-direction:column;gap:14px}.header-contacts{width:100%;justify-content:space-between}.header-contacts .email{font-size:11px}.section-summary{font-size:24px}}
