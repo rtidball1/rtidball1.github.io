@@ -19,3 +19,6 @@
 
 .company-logo{display:block;object-fit:contain;object-position:left;width:auto;height:22px;max-width:125px}.scotiabank-logo{margin-bottom:18px}.timeline-role{display:flex;flex-direction:column;align-items:flex-end;gap:8px}.company-name{display:flex;align-items:center;gap:10px}.mnp-logo{height:20px;max-width:65px}.credentials .recognition p.award-title{font-size:29px}.timeline .mnp-entry{align-items:flex-start}
 @media(max-width:540px){.timeline-role{align-items:flex-start}}
+
+.career-logos{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-top:28px}.career-logos .scotiabank-logo{margin:0;height:22px;max-width:125px}.career-logos .mnp-logo{height:15px;max-width:48px}
+.experience-label{font-size:9px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin:28px 0 8px}.experience-label+.timeline{margin-top:0}.timeline .experience-divider{display:block;border-top:3px solid var(--wine);border-bottom:0;padding:16px 0 0;margin-top:8px}.experience-divider .experience-label{margin:0 0 6px}
