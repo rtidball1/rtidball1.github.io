@@ -78,6 +78,6 @@
 /* Equal section titles with just enough room for Entrepreneurial. */
 #entrepreneurial .section-title{container-type:normal}
 .section-title h2,#entrepreneurial .section-title h2{font-size:38px;line-height:1.08;overflow-wrap:normal}
-@media(min-width:801px){.section{grid-template-columns:280px minmax(0,1fr);gap:40px}}
-@media(min-width:541px) and (max-width:800px){.section{grid-template-columns:230px minmax(0,1fr);gap:24px}.section-title h2,#entrepreneurial .section-title h2{font-size:32px}}
+@media(min-width:801px){.section{grid-template-columns:220px minmax(0,1fr);gap:40px}}
+@media(min-width:541px) and (max-width:800px){.section{grid-template-columns:190px minmax(0,1fr);gap:24px}.section-title h2,#entrepreneurial .section-title h2{font-size:32px}}
 @media(max-width:540px){.section-title h2,#entrepreneurial .section-title h2{font-size:38px}}
